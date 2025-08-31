@@ -1,5 +1,6 @@
 #there will be an authentication error bcz of gmail security
 #to use it properly u need to set an app password
+#first, turn-on Two step authentiation on google accounts
 #Go to myaccount.google.com/u/1/apppasswords
 #and put app name = Python
 #copy the app password and paste in the input password field
@@ -11,6 +12,10 @@ from email.message import EmailMessage
 import ssl
 import smtplib
 import getpass
+
+print("----------------------------------------------")
+print("WELCOME TO EMAIL BOMBER xD")
+print("----------------------------------------------")
 
 sender_email = input("Enter sender mail: ")
 password = input('Enter APP-password: ')
